@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #5CBAFF;
+    height: 70px;
+    padding-top: 15px;
+    border-bottom: 2px solid #bea5a5;
+}
+header nav{
+    
+}
+header nav ul{
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    min-height: 88vh;
+}
+.content .image{
+    background-color: #5CBAFF;
+    width: 38%;
+    text-align: center;
+    padding-top: 40px;
+}
+.content .image img{
+    
+}
+.content .info{
+    background-color: #0093FF;
+    width: 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .info .form_content{
+    width: 35%;
+}
+.content .info h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: white;
+}
+.content .info p{
+    color: white;
+    padding-bottom: 30px;
+}
+.content .info h4{
+    color: white;
+    padding-bottom: 10px;
+}
+.content .info form{
+    margin-bottom: 30px;
+}
+.content .info form input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+}
+
+.content .info form input[type="submit"]{
+    width: 22%;
+    font-weight: 600;
+    color: #0093FF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+}
+.footer p{
+    margin-right: 18px;
+    font-size: 15px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+}
+.footer ul li{
+    margin-right: 12px;
+    font-weight: 600;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: ;
+}
